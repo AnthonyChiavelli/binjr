@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/app';
 
 
-ReactDOM.render((<h1>BINJR BITCH</h1>), document.getElementById('react-root'));
+
+
+ReactDOM.render((<App/>), document.getElementById('react-root'));
